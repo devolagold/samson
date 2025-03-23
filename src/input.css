@@ -9,3 +9,10 @@
 .sweet-affogato{
     font-family: 'Sweet Affogato';
 }
+
+.background{
+    background-image: url(/src/assets/Union.svg);
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: contain;
+}
