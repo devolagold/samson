@@ -1635,6 +1635,12 @@
   .py-2\.5 {
     padding-block: calc(var(--spacing) * 2.5);
   }
+  .py-3\.5 {
+    padding-block: calc(var(--spacing) * 3.5);
+  }
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
+  }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
@@ -2635,6 +2641,11 @@
       padding-inline: calc(var(--spacing) * 16);
     }
   }
+  .md\:py-1\.5 {
+    @media (width >= 48rem) {
+      padding-block: calc(var(--spacing) * 1.5);
+    }
+  }
   .md\:py-20 {
     @media (width >= 48rem) {
       padding-block: calc(var(--spacing) * 20);
@@ -2712,6 +2723,36 @@
   .md\:opacity-40 {
     @media (width >= 48rem) {
       opacity: 40%;
+    }
+  }
+  .lg\:block {
+    @media (width >= 64rem) {
+      display: block;
+    }
+  }
+  .lg\:flex {
+    @media (width >= 64rem) {
+      display: flex;
+    }
+  }
+  .xl\:block {
+    @media (width >= 80rem) {
+      display: block;
+    }
+  }
+  .xl\:flex {
+    @media (width >= 80rem) {
+      display: flex;
+    }
+  }
+  .xl\:hidden {
+    @media (width >= 80rem) {
+      display: none;
+    }
+  }
+  .xl\:py-1\.5 {
+    @media (width >= 80rem) {
+      padding-block: calc(var(--spacing) * 1.5);
     }
   }
   .rtl\:space-x-reverse {
