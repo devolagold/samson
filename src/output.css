@@ -2515,6 +2515,16 @@
       margin-top: calc(var(--spacing) * 24);
     }
   }
+  .md\:block {
+    @media (width >= 48rem) {
+      display: block;
+    }
+  }
+  .md\:hidden {
+    @media (width >= 48rem) {
+      display: none;
+    }
+  }
   .md\:w-auto {
     @media (width >= 48rem) {
       width: auto;
