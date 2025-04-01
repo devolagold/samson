@@ -5,6 +5,7 @@
 *{
     font-family: 'Poppins';
     /* outline: red solid 1px; */
+    scroll-behavior: smooth;
 }
 
 .sweet-affogato{

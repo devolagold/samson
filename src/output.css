@@ -279,9 +279,6 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
-  .top-6 {
-    top: calc(var(--spacing) * 6);
-  }
   .top-24 {
     top: calc(var(--spacing) * 24);
   }
@@ -641,9 +638,6 @@
   }
   .w-\[36\.125rem\] {
     width: 36.125rem;
-  }
-  .w-auto {
-    width: auto;
   }
   .w-fit {
     width: fit-content;
@@ -1184,13 +1178,6 @@
       margin-inline-end: calc(calc(var(--spacing) * 6) * calc(1 - var(--tw-space-x-reverse)));
     }
   }
-  .space-x-8 {
-    :where(& > :not(:last-child)) {
-      --tw-space-x-reverse: 0;
-      margin-inline-start: calc(calc(var(--spacing) * 8) * var(--tw-space-x-reverse));
-      margin-inline-end: calc(calc(var(--spacing) * 8) * calc(1 - var(--tw-space-x-reverse)));
-    }
-  }
   .space-x-reverse {
     :where(& > :not(:last-child)) {
       --tw-space-x-reverse: 1;
@@ -1288,9 +1275,6 @@
   }
   .rounded-3xl {
     border-radius: var(--radius-3xl);
-  }
-  .rounded-4xl {
-    border-radius: var(--radius-4xl);
   }
   .rounded-full {
     border-radius: calc(infinity * 1px);
@@ -1468,9 +1452,6 @@
   }
   .bg-\[\#353637\] {
     background-color: #353637;
-  }
-  .bg-\[\#\] {
-    background-color: #;
   }
   .bg-\[\#ffffff\] {
     background-color: #ffffff;
@@ -1749,20 +1730,11 @@
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
   }
-  .py-16 {
-    padding-block: calc(var(--spacing) * 16);
-  }
-  .py-34 {
-    padding-block: calc(var(--spacing) * 34);
-  }
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
   }
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
-  }
-  .pt-6 {
-    padding-top: calc(var(--spacing) * 6);
   }
   .pr-16 {
     padding-right: calc(var(--spacing) * 16);
@@ -2275,6 +2247,18 @@
   .duration-700 {
     --tw-duration: 700ms;
     transition-duration: 700ms;
+  }
+  .duration-1000 {
+    --tw-duration: 1000ms;
+    transition-duration: 1000ms;
+  }
+  .duration-\[3000\] {
+    --tw-duration: 3000;
+    transition-duration: 3000;
+  }
+  .duration-\[5000\] {
+    --tw-duration: 5000;
+    transition-duration: 5000;
   }
   .ease-in {
     --tw-ease: var(--ease-in);
@@ -3019,6 +3003,7 @@
 @import url('https://fonts.cdnfonts.com/css/sweet-affogato');
 * {
   font-family: 'Poppins';
+  scroll-behavior: smooth;
 }
 .sweet-affogato {
   font-family: 'Sweet Affogato';
