@@ -59,7 +59,7 @@
                             </svg>                                                                               
                         </a>
                     </div>
-                    <button data-collapse-toggle="navbar-sticky" type="button" class="menu-button inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-[#FDFDF8] rounded-lg md:hidden focus:outline-none" aria-controls="navbar-sticky" aria-expanded="false">
+                    <button data-collapse-toggle="navbar-sticky" type="button" id="menu-button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-[#FDFDF8] rounded-lg md:hidden focus:outline-none" aria-controls="navbar-sticky" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M1 1h15M1 7h15M1 13h15"/>
@@ -69,7 +69,7 @@
                 <div class="menu absolute top-24 right-6 items-center justify-center hidden md:block w-fu md:w-auto md:order-1 md:relative md:top-2" id="navbar-sticky">
                     <ul class="w-fit ml-auto -mt-8 flex flex-col p-2 md:p-0 rounded-lg md:space-x- rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-[#353637] border border-[#ffffff1e] md:bg-transparent backdrop-blur-2xl md:backdrop-blur-none">
                         <li>
-                            <a href="#" class="block py-4 md:py-1.5 px-2 font-normal pr-16 md:pr-6 text-sm w-44 md:w-fit text-[#ffffff] hover:text-[#30A977]">About Me</a>
+                            <a href="about.html" class="block py-4 md:py-1.5 px-2 font-normal pr-16 md:pr-6 text-sm w-44 md:w-fit text-[#ffffff] hover:text-[#30A977]">About Me</a>
                         </li>
                         <li>
                             <a href="#portfolio" class="block py-4 md:py-1.5 px-2 font-normal pr-16 md:pr-6 text-sm w-44 md:w-fit text-[#ffffff] hover:text-[#30A977]">Portfolio</a>
@@ -83,6 +83,28 @@
                         <li>
                             <a href="#benefits" class="block py-4 md:py-1.5 px-2 font-normal pr-16 md:pr-6 text-sm w-44 md:w-fit text-[#ffffff] hover:text-[#30A977]">Benefits</a>
                         </li>
+
+                        <div class="md:hidden flex flex-col space-y-4">
+                            <hr class="border-[#ffffff1e]">
+                            <a href="mailto:shotayosamson@gmail.com?&subject=I%20would%20like%20to%20work%20with%20you" target="_blank" class="cursor-pointert" type="button">
+                                <div class="before:ease relative flex overflow-hidden border items-center w-fit space-x-2 rounded-xl text-sm px-4 py-2.5 text-center  border-[#30A977] bg-[#30A977] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-18 before:rotate-12 before:bg-white before:opacity-10 before:duration-700 hover:shadow-[#30A977] hover:before:-translate-x-50">
+                                    <p class="font-medium">Hire Me</p>
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.43 5.92999L20.5 12L14.43 18.07" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3.5 12H20.33" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>   
+                                </div>
+                            </a>
+                            <a id="#" href="https://drive.google.com/file/d/1fwUAkpI71z2SZX0XqtKl3BlgrsFvtbTM/view?usp=sharing" target="_blank" type="button" class="font-medium flex bg-[#ffffff] text-[#292D32] items-center space-x-2 rounded-xl text-sm px-4 py-2.5 text-center hover:opacity-85 button-">
+                                <p class="font-medium">Download Resume</p>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 11V17L11 15" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9 17L7 15" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22 10V15C22 20 20 22 15 22H9C4 22 2 20 2 15V9C2 4 4 2 9 2H14" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22 10H18C15 10 14 9 14 6V2L22 10Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                                                               
+                            </a>
+                        </div>
                     </ul>
                 </div>
             </div>

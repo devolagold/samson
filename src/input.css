@@ -26,6 +26,34 @@
     background-size: cover;
 }
 
+.img-1{
+    background-image: url(/src/assets/show-image-1.png);
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-2{
+    background-image: url(/src/assets/show-image-2.png);
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-3{
+    background-image: url(/src/assets/show-image-3.png);
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-4{
+    background-image: url(/src/assets/show-image-4.png);
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .marquee {
     overflow: hidden;
     width: 100%;
